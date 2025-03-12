@@ -6,3 +6,6 @@ def prog07():
     for i in range(10):
         num = int(input(f"Enter a number {i+1}: "))
 #Calculate the total sum
+        total_sum += num
+    print("Sum of all numbers:", total_sum)
+prog07()
