@@ -7,3 +7,4 @@ def prog04():
 #Print the product
     print(product)
 #Call the function of the program
+prog04()
