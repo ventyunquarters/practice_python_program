@@ -7,5 +7,8 @@ def prog08():
         if num % 2 != 0:
             odd_count += 1
 #Print the number of odd numbers
+    print("Number of odd numbers:", odd_count)
+
+prog08()
 
 
