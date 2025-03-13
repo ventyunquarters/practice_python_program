@@ -5,4 +5,6 @@ def prog02():
 #Check if the num1 is not equal to num2
     if num1 != num2:
 #Set print not equal if they are not
+        print("Not equal")
 
+prog02()
