@@ -5,6 +5,9 @@ def prog07():
     for i in range(10):
         num = int(input(f"Enter a number {i + 1}: "))
 #Check if the number is even
-    if num % 2 == 0:
-        even_count += 1
+        if num % 2 == 0:
+            even_count += 1
 #Print the total count of even numbers,
+    print("The number of even numbers is:", even_count)
+
+prog07()
