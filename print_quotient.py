@@ -7,7 +7,7 @@ def prog04():
         print("Cannot divide by zero.")
 #Calculate the integer quotient using floor division
     else:
-        quotient = num1 / num2
+        quotient = num1 // num2
 # Print the integer quotient
         print("The quotient is: ", quotient)
 
