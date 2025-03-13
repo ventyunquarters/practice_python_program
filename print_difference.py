@@ -6,4 +6,5 @@ def prog03():
 #Print the difference
     difference = num1 - num2
 #Call the function
-
+    print("The difference is: ", difference)
+prog03()
