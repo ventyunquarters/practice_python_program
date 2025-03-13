@@ -6,5 +6,9 @@ def prog05():
     if num2 == 0:
         print("Cannot divide by zero.")
 #Else calculate the remainder using the modulo operator
+    else:
+        remainder = num1 % num2
+        print("The remainder is:", remainder)
 
+prog05()
 
