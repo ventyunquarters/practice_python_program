@@ -5,7 +5,7 @@ def prog01():
 #Add if condition to check if num1 is less than num2
     if num1 < num2:
         print("The smallest number is: ", num1)
-#Otherwide print num 2 if they are smaller or equal
+#Otherwise print num 2 if they are smaller or equal
     else:
         print("The smallest number is: ", num2)
 #Call the function
