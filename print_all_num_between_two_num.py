@@ -9,5 +9,8 @@ def prog10():
 # Check if num2 is less than num1, print numbers from num2+1 to num1-1
     elif num1 > num2:
         for num in range(num2 + 1, num1):
-
+            print(num)
 # If the numbers are equal, there are no numbers between them.
+    else:
+        print("There are no numbers between the given numbers.")
+prog10()
