@@ -7,7 +7,7 @@ def prog05():
         print("Cannot divide by zero")
 #Print the quotient
     else:
-        quotient = num1 / num2
+        quotient = num1 // num2
         print(quotient)
 #Call the function
 prog05()
