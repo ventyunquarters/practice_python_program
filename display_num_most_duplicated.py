@@ -1,5 +1,6 @@
 #Initialize an empty list to store the numbers
 import numbers
+from itertools import count
 
 
 def prog02():
@@ -22,3 +23,15 @@ def prog02():
         counts[num] = counts.get(num, 0) + 1
     max_count = 0
     max_num = None
+
+    for num, count in counts.items():
+        if count > max_count:
+            max_count = count
+            max_num = num
+
+    if max_num is not None:
+        print("The number with most duplicates: ", max_num)
+    else:
+        print("All numbers are unique.")
+
+prog02()
