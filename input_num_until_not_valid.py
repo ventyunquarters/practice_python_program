@@ -9,5 +9,10 @@ def prog03():
             if num in numbers:
                 print("Duplicate")
             else:
+                print("Unique")
                 numbers.append(num)
 #Handle invalid input
+        except ValueError:
+            print("Invalid input. Ending the program.")
+            break
+prog03()
