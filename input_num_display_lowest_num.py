@@ -10,3 +10,10 @@ def prog04():
             print("Invalid input. Ending program.")
             break
 #Check if the list of numbers is not empty.
+    if numbers:
+        lowest_number = min(numbers)
+        print("Lowest number:", lowest_number)
+    else:
+        print("No valid numbers were entered.")
+
+prog04()
