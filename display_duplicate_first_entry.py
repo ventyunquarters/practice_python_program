@@ -6,6 +6,11 @@ def prog02():
         num = int(input(F"Enter number {i + 1}: "))
         numbers.append(num)
 #Initialize an empty lise to track numbers already printed
+    seen_numbers = []
+    for num in numbers:
 
 #Check if the number has not been printed yet.
-
+        if num not in seen_numbers:
+            print(num)
+            seen_numbers.append(num)
+prog02()
