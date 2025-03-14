@@ -14,3 +14,9 @@ def prog01():
     duplicates = []
     seen = set()
 #Iterate through the list of numbers.
+    for num in numbers:
+        if numbers.count(num) > 1 and num not in seen:
+            duplicates.append(num)
+            seen.add(num)
+    print("The number with duplicates:", duplicates)
+prog01()
