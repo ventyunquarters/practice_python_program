@@ -10,8 +10,10 @@ def prog01():
     unique_numbers = []
 #Iterate through the list of numbers
     for num in numbers:
+#Check if the number appears only once in the list.
         if numbers.count(num) == 1:
             unique_numbers.append(num)
-#Check if the number appears only once in the list.
-
 #Print the list of unique numbers.
+    print("Number of unique numbers: ", (unique_numbers))
+
+prog01()
