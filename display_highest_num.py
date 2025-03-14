@@ -9,7 +9,13 @@ def prog03():
             numbers.append(num)
         except ValueError:
             print("Invalid input. Ending program.")
-        break
+            break
 #Check if the list of numbers is not empty
+    if numbers:
+        highest_number = max(numbers)
+        print("The highest number is: ", highest_number)
+    else:
+        print("No valid numbers found.")
+prog03()
 
 
