@@ -11,4 +11,11 @@ def prog05():
             print("Invalid input. Ending program.")
             break
 #Check if the list of numbers is not empty
+    if numbers:
+        numbers.sort()
+        print("Numbers from lowest to highest:", numbers)
+    else:
+        print("No valid numbers were entered.")
+
+prog05()
 
