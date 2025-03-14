@@ -11,6 +11,12 @@ def prog05():
             print("Invalid input. Ending program.")
             break
 #Check if the list of numbers is not empty.
-
+    if numbers:
 #Calculate the average
+        average = sum(numbers) / len(numbers)
+        print("The average is: ", average)
+    else:
+        print("No valid numbers entered.")
+
+prog05()
 
