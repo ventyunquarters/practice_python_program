@@ -1,7 +1,7 @@
 def prog06():
 
 #Ask user to input their name with incorrect casing
-    full=name = input("Enter your full name with incorrect casing: ")
+    full_name = input("Enter your full name with incorrect casing: ")
     reversed_case_name = " "
 #Iterate through each character in the input string
     for char in full_name:
