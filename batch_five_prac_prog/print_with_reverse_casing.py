@@ -11,8 +11,11 @@ def prog06():
             reversed_case_name += char.upper()
 #Check if the character is uppercase.
         elif char.isupper():
-            reversed_case_name += char.lower()
 #Convert to lowercase and append.
-
+            reversed_case_name += char.lower()
+        else:
+            reversed_case_name += char
 #Print reversed case name
+    print(reversed_case_name)
+prog06()
 
