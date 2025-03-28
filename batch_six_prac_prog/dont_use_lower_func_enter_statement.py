@@ -10,3 +10,12 @@ def custom_lower(input_string):
         else:
             result += char
     return result
+
+#Ask the user for input
+user_statement = input("Enter your statement: ")
+
+#Convert to lowercase
+lower_statement = custom_lower(user_statement)
+
+#Display the result
+print("Lowercase statement:", lower_statement)
