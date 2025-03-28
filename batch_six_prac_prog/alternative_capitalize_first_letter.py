@@ -3,7 +3,7 @@ def alternative_capitalize(input_string):
         return ""
 
     first_char = input_string[0]
-    res_of_string = input_string[1:]
+    rest_of_string = input_string[1:]
 
     if 'a' <= first_char <= 'z':
         capitalized_first = chr(ord(first_char) -32)
@@ -18,3 +18,12 @@ def alternative_capitalize(input_string):
             lowercase_others += char
 
     return capitalized_first + lowercase_others
+
+#Get user input
+user_statement = input("Enter a statement:")
+
+#Capitalized the string
+capitalized_string = alternative_capitalize(user_statement)
+
+#Display the results
+print("Captalized string:", capitalized_string)
