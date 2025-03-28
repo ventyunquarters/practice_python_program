@@ -1,4 +1,4 @@
-def custom_swapcase(input_string):
+def alternative_swapcase(input_string):
 
     result = ""
     for char in input_string:
@@ -9,3 +9,12 @@ def custom_swapcase(input_string):
         else:
             result += char
     return result
+
+#Ask for user input
+user_string = input("Enter your statement: ")
+
+#Swap the casing
+swapped_string = alternative_swapcase(user_string)
+
+#Display the result
+print("Swapped casing:", swapped_string)
